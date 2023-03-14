@@ -43,7 +43,6 @@ try:
 except URLerror as e:
   streamlit.error()
 
-streamlit.stop()
 
 
 def get_fruit_load_list():
